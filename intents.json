@@ -1,0 +1,39 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["Hey", "Hello", "Whats'up?", "Hi", "Good day", "greetings"],
+    "responses": ["Hello Sir!", "Hey Sahil!"]
+},
+{"tag": "plot_chart",
+  "patterns": ["I want you to plot a stock price!", "Please plot a chart", "Plot a stock", "Plot a stock price", "Show me a stock price chart", "Candlestick chart", "plot"],
+  "responses": ["Plotting Chart"]
+},
+{"tag": "add_portofolio",
+  "patterns": ["Add a stock to my portfolio", "Add a stock", "Add a stock to my list", "I want to add something to my portfolio", "I want add a new stock"],
+  "responses": ["Adding Stock"]
+},
+{"tag": "remove_portfolio",
+  "patterns": ["Remove a stock from my portfolio", "Remove a stock", "Remove a stock from my list", "I want to remove something from my portfolio"],
+  "responses": ["Removing Stock"]
+},
+{"tag": "show portfolio",
+  "patterns": ["Show my portfolio", "Show my stock portfolio", "List my stocks", "List my portfolio"],
+  "responses": ["Showing Portfolio"]
+},
+{"tag": "stock_price",
+  "patterns": ["nonsense"],
+  "responses": ["I want to know the price of a stock!", "Show me the price of a stock"]
+},
+{"tag": "portfolio_worth",
+  "patterns": ["How much is my portfolio worth", "What is the value of my portfolio"],
+  "responses": ["Portfolio Worth"]
+},
+{"tag": "portfolio_gains",
+  "patterns":["How is my portfolio perfoming?", "How are my gains?"],
+  "responses": ["Portfolio Gains"]
+},
+{"tag": "bye",
+  "patterns": ["bye", "goodbye", "end"],
+  "responses": ["GoodBye Sahil!!"]
+}
+]
+}
